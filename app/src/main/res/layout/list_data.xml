@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+<androidx.cardview.widget.CardView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="2dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+        <LinearLayout
+            android:background="#FCF6FD"
+
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:text="@string/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etId"
+
+            android:hint="Id">
+        </TextView>
+
+        <TextView
+            android:id="@+id/etName"
+            android:hint="Name"
+            android:text="@string/name"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/etSalary"
+            android:hint="salary"
+            android:text="@string/salary"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+        </TextView>
+        <TextView
+            android:id="@+id/etPhone"
+            android:hint="phone"
+            android:text="@string/phone"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+        </TextView>
+
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WebServiceHWfetchS</string>
+    <string name="id">Id</string>
+    <string name="name">Name</string>
+    <string name="salary">Salary</string>
+    <string name="phone">Phone</string>
+</resources>
